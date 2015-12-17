@@ -4,23 +4,50 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "country",
+            "title":"Country"
+        },
+        {
+            "id": "city",
+            "title":"City"
+        },
+        {
+            "id": "state",
+            "title": "State"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "tideInfo_tideSite",
+            "title":"Tide Site"
+        },
+        {
+            "id": "tideInfo_units",
+            "title":"Units"
+        },
+        {
+            "id": "tideInfo_type",
+            "title":"Type"
+        },
+        {
+            "id": "tideInfo_tzname",
+            "title":"Name"
+        },
+        {
+            "id": "tideSummary_date_pretty",
+            "title":"Date"
+        },
+        {
+            "id": "tideSummaryStats_maxheight",
+            "title":"Max Height"
+        },
+        {
+            "id": "tideSummaryStats_minheight",
+            "title":"Min Height"
         }
-      */
     ],
-    "title": "wunderground-get_tide" /* Required.A display name for the module */
+    "icon": "dex-wunderground",
+    "title": "Get Tide" /* Required.A display name for the module */
 }
