@@ -49,5 +49,5 @@
         }
     ],
     "icon": "dex-wunderground",
-    "title": "Get Tide" /* Required.A display name for the module */
+    "title": "Weather Underground - Get Tide" /* Required.A display name for the module */
 }
